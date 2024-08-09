@@ -209,19 +209,19 @@ const TRANSLATIONS = {
     doc: {
       title: "Dokumentenähnlichkeitsgrenze",
       description:
-        "The minimum similarity score required for a source to be considered related to the chat. The higher the number, the more similar the source must be to the chat.",
+        "Der niedrigste Ähnlichkeitswert, der benötigt wird, dass eine Quelle als zum Chat passend gewertet wird. Je höher die Zahl, desto ähnlicher muss die Quelle zum Chat sein.",
       zero: "Keine Einschränkungen",
-      low: "Low (similarity score ≥ .25)",
-      medium: "Medium (similarity score ≥ .50)",
-      high: "High (similarity score ≥ .75)",
+      low: "Niedrig (Ähnlichkeitswert ≥ .25)",
+      medium: "Mittel (Ähnlichkeitswert ≥ .50)",
+      high: "Hoch (Ähnlichkeitswert ≥ .75)",
     },
     reset: {
-      reset: "Reset Vector Database",
-      resetting: "Clearing vectors...",
+      reset: "Vektordatenbank zurücksetzen",
+      resetting: "Lösche vektoren...",
       confirm:
-        "You are about to reset this workspace's vector database. This will remove all vector embeddings currently embedded.\n\nThe original source files will remain untouched. This action is irreversible.",
-      error: "Workspace vector database could not be reset!",
-      success: "Workspace vector database was reset!",
+        "Sie sind davor, die Vektordatenbank des Workspace zu löschen. Dies löscht alle aktuellen Vektoreinbettungen.\n\nDie Originaldateien sind nicht betroffen. Diese Aktion kann nicht rückgängig gemacht werden",
+      error: "Die Vektordatenbank des Workspace konnte nicht zurückgesetzt werden!",
+      success: "Vektordatenbank des Workspace zurückgesetzt!",
     },
   },
 
